@@ -17,7 +17,7 @@ var maskImg , moneyBagImg , restartImg, sanitizerImg ,heart;
 
 var obstaclesGroup, money, moneyBag,restart;
 
-var girl_stopped, boy_stopped;
+var girl_stopped, boy_stopped;   
 
 var PLAY = 1;
 
@@ -373,23 +373,27 @@ function changeBg(){
                         state = "house";
                         break;
                         case 2: bg.changeAnimation("2", bg2);
-                        bg.scale = 2.5; 
                         state = "horror";
+                        bg.scale = 2.5; 
                         break;
                         case 3: bg.changeAnimation("3", bg3);
                         state = "forest";
+                        bg.scale = 2.5; 
                         break;
                         case 4: bg.changeAnimation("4", bg4);
                         state = "citym";
                         break;
                         case 5: bg.changeAnimation("5", bg5);
                         state = "citye"
+                        bg.scale = 2.5; 
                         break;
                         case 6: bg.changeAnimation("6", bg6);
                         state = "Market1";
+                        bg.scale =  1.5; 
                         break;
                         case 7: bg.changeAnimation("7", bg7);
                         state = "Market2";
+                        bg.scale = 2.5; 
                         break;
                   default: break;
      
